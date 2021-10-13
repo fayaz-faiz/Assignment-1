@@ -1,0 +1,176 @@
+
+.main {
+    background-color: #5b89ce;
+    margin-left: 400px;
+    margin-right: 400px;
+    display: flex;
+    color: rgb(5, 5, 7);
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+  }
+  .header {
+    text-align: left;
+    font-size: 35px;
+  }
+  .cartitemheader {
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: 400px;
+    cursor: pointer;
+  }
+  
+  .header i {
+    font-size: 40px;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .container {
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 20px;
+    padding: 10px;
+  }
+  .box img {
+    height: 250px;
+    text-align: center;
+  }
+  .boxh1 {
+    font-size: 25px;
+  }
+  .boxp {
+    font-size: 16px;
+    margin-top: 30px;
+    color: gray;
+  }
+  .boxh3 {
+    font-size: 25px;
+  }
+  .boxp1 {
+    color: gray;
+  }
+  .boxbutton1 {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #4169e1;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .boxbutton2 {
+    text-align: center;
+    padding: 10px;
+    border: 0px solid black;
+    width: 50px;
+    margin-left: 110px;
+    color: gray;
+  }
+  .boxbutton3 {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #4169e1;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .totalamount {
+    font-size: 30px;
+    margin-left: 600px;
+    padding-top: 50px;
+    color: gray;
+  }
+  .totalreset {
+    margin-left: 650px;
+    margin-top: 20px;
+    background-color: #4169e1;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
+  .main button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+  } 
+  .main p{
+    position:absolute;
+    top: -15px;
+    right: -5px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 10px;
+  }
+  .totalreset:hover{
+    background-color:  #ff4500;
+  }
+  .boxbutton1:hover{
+    background-color: #ff4500;
+  }
+  .boxbutton3:hover{
+    background-color:greenyellow;
+  }
+  .cartitemheader:hover{
+    background-color: rgb(149, 153, 143);
+  }
+  .button-arranging{
+    display: flex;
+    margin-left: 50px;
+  }
+  .button-arranging button{
+    padding:5px;
+    height: 50px;
+    width: 50px;
+  }
+  .button-arranging h1{
+    text-align: center;
+    margin-left: 10px;
+    margin-top: -2px;
+  }
+  .boxbutton:hover{
+    background-color: greenyellow;
+    
+  }
+  .boxbutton {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #4169e1;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
